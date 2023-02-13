@@ -18,6 +18,10 @@ function App() {
       msg: message,
       type: type
     })
+    setTimeout(() => {
+      setalert(null);
+    },1500);
+    
   }
   const toggleMode =()=>{
     if(mode==='light'){
